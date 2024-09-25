@@ -1,0 +1,78 @@
+# Ignore all env directories
+env/
+venv/
+.env/
+.venv/
+
+# Ignore environment-related files
+*.env
+.env.*
+.envrc
+
+# Ignore Python virtual environment files
+pyvenv.cfg
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Python distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ignore pip logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Python testing
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Ignore Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore IPython
+profile_default/
+ipython_config.py
+
+# Ignore mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore Pylint
+.pylintrc
+
+# Ignore Python rope project settings
+.ropeproject
+
+# Ignore mkdocs documentation
+/site
+
+# Ignore Sphinx documentation
+docs/_build/
