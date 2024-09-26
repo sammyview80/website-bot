@@ -6,7 +6,6 @@ venv/
 
 # Ignore environment-related files
 *.env
-.env.*
 .envrc
 
 # Ignore Python virtual environment files
