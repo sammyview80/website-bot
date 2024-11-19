@@ -1,10 +1,10 @@
 
 import requests
 from bs4 import BeautifulSoup
-from helpers.GROQ import ConversationGROQ
+from helpers.LLM import ConversationLLM 
 
 class Scrapper:
-    def __init__(self, url: str, groq_instance: ConversationGROQ):
+    def __init__(self, url: str, groq_instance: ConversationLLM):
         self.url = url
         self.groq_instance = groq_instance
 

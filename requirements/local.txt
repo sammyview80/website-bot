@@ -6,3 +6,4 @@ flask-session
 redis
 requests
 beautifulsoup4
+langchain-community

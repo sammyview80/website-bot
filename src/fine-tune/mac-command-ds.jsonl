@@ -1,0 +1,251 @@
+{"prompt": "increase brightness", "completion": "osascript -e 'tell application \"System Events\" to key code 144'"}
+{"prompt": "up brightness", "completion": "osascript -e 'tell application \"System Events\" to key code 144'"}
+{"prompt": "light up brightness higher", "completion": "osascript -e 'tell application \"System Events\" to key code 144'"}
+{"prompt": "make brightness brighter", "completion": "osascript -e 'tell application \"System Events\" to key code 144'"}
+{"prompt": "turn brightness up", "completion": "osascript -e 'tell application \"System Events\" to key code 144'"}
+{"prompt": "decrease brightness", "completion": "osascript -e 'tell application \"System Events\" to key code 145'"}
+{"prompt": "down brightness", "completion": "osascript -e 'tell application \"System Events\" to key code 145'"}
+{"prompt": "lower brightness", "completion": "osascript -e 'tell application \"System Events\" to key code 145'"}
+{"prompt": "dim brightness", "completion": "osascript -e 'tell application \"System Events\" to key code 145'"}
+{"prompt": "turn brightness down", "completion": "osascript -e 'tell application \"System Events\" to key code 145'"}
+{"prompt": "mute volume", "completion": "osascript -e 'set volume output muted true'"}
+{"prompt": "turn off volume", "completion": "osascript -e 'set volume output muted true'"}
+{"prompt": "shut volume", "completion": "osascript -e 'set volume output muted true'"}
+{"prompt": "unmute volume", "completion": "osascript -e 'set volume output muted false'"}
+{"prompt": "turn on volume", "completion": "osascript -e 'set volume output muted false'"}
+{"prompt": "increase volume", "completion": "osascript -e 'set volume output volume (output volume of (get volume settings) + 10)'"}
+{"prompt": "up volume", "completion": "osascript -e 'set volume output volume (output volume of (get volume settings) + 10)'"}
+{"prompt": "make volume louder", "completion": "osascript -e 'set volume output volume (output volume of (get volume settings) + 10)'"}
+{"prompt": "turn volume up", "completion": "osascript -e 'set volume output volume (output volume of (get volume settings) + 10)'"}
+{"prompt": "decrease volume", "completion": "osascript -e 'set volume output volume (output volume of (get volume settings) - 10)'"}
+{"prompt": "down volume", "completion": "osascript -e 'set volume output volume (output volume of (get volume settings) - 10)'"}
+{"prompt": "lower volume", "completion": "osascript -e 'set volume output volume (output volume of (get volume settings) - 10)'"}
+{"prompt": "turn volume down", "completion": "osascript -e 'set volume output volume (output volume of (get volume settings) - 10)'"}
+{"prompt": "open Safari", "completion": "osascript -e 'tell application \"Safari\" to activate'"}
+{"prompt": "launch Safari", "completion": "osascript -e 'tell application \"Safari\" to activate'"}
+{"prompt": "start Safari", "completion": "osascript -e 'tell application \"Safari\" to activate'"}
+{"prompt": "open web browser", "completion": "osascript -e 'tell application \"Safari\" to activate'"}
+{"prompt": "close Safari", "completion": "osascript -e 'tell application \"Safari\" to quit'"}
+{"prompt": "quit Safari", "completion": "osascript -e 'tell application \"Safari\" to quit'"}
+{"prompt": "exit Safari", "completion": "osascript -e 'tell application \"Safari\" to quit'"}
+{"prompt": "open Terminal", "completion": "osascript -e 'tell application \"Terminal\" to activate'"}
+{"prompt": "launch Terminal", "completion": "osascript -e 'tell application \"Terminal\" to activate'"}
+{"prompt": "start Terminal", "completion": "osascript -e 'tell application \"Terminal\" to activate'"}
+{"prompt": "open command line", "completion": "osascript -e 'tell application \"Terminal\" to activate'"}
+{"prompt": "close Terminal", "completion": "osascript -e 'tell application \"Terminal\" to quit'"}
+{"prompt": "quit Terminal", "completion": "osascript -e 'tell application \"Terminal\" to quit'"}
+{"prompt": "exit Terminal", "completion": "osascript -e 'tell application \"Terminal\" to quit'"}
+{"prompt": "open Calendar", "completion": "osascript -e 'tell application \"Calendar\" to activate'"}
+{"prompt": "launch Calendar", "completion": "osascript -e 'tell application \"Calendar\" to activate'"}
+{"prompt": "start Calendar", "completion": "osascript -e 'tell application \"Calendar\" to activate'"}
+{"prompt": "open calendar app", "completion": "osascript -e 'tell application \"Calendar\" to activate'"}
+{"prompt": "close Calendar", "completion": "osascript -e 'tell application \"Calendar\" to quit'"}
+{"prompt": "quit Calendar", "completion": "osascript -e 'tell application \"Calendar\" to quit'"}
+{"prompt": "exit Calendar", "completion": "osascript -e 'tell application \"Calendar\" to quit'"}
+{"prompt": "open iPhone mirroring", "completion": "osascript -e 'tell application \"iPhone Mirroring\" to activate'"}
+{"prompt": "launch iPhone mirroring", "completion": "osascript -e 'tell application \"iPhone Mirroring\" to activate'"}
+{"prompt": "start iPhone mirroring", "completion": "osascript -e 'tell application \"iPhone Mirroring\" to activate'"}
+{"prompt": "open iPhone screen mirroring", "completion": "osascript -e 'tell application \"iPhone Mirroring\" to activate'"}
+{"prompt": "close iPhone mirroring", "completion": "osascript -e 'tell application \"iPhone Mirroring\" to quit'"}
+{"prompt": "quit iPhone mirroring", "completion": "osascript -e 'tell application \"iPhone Mirroring\" to quit'"}
+{"prompt": "exit iPhone mirroring", "completion": "osascript -e 'tell application \"iPhone Mirroring\" to quit'"}
+{"prompt": "open Postman", "completion": "osascript -e 'tell application \"Postman\" to activate'"}
+{"prompt": "launch Postman", "completion": "osascript -e 'tell application \"Postman\" to activate'"}
+{"prompt": "start Postman", "completion": "osascript -e 'tell application \"Postman\" to activate'"}
+{"prompt": "open API tool", "completion": "osascript -e 'tell application \"Postman\" to activate'"}
+{"prompt": "close Postman", "completion": "osascript -e 'tell application \"Postman\" to quit'"}
+{"prompt": "quit Postman", "completion": "osascript -e 'tell application \"Postman\" to quit'"}
+{"prompt": "exit Postman", "completion": "osascript -e 'tell application \"Postman\" to quit'"}
+{"prompt": "open Visual Studio Code", "completion": "osascript -e 'tell application \"Visual Studio Code\" to activate'"}
+{"prompt": "launch Visual Studio Code", "completion": "osascript -e 'tell application \"Visual Studio Code\" to activate'"}
+{"prompt": "start Visual Studio Code", "completion": "osascript -e 'tell application \"Visual Studio Code\" to activate'"}
+{"prompt": "open VS Code", "completion": "osascript -e 'tell application \"Visual Studio Code\" to activate'"}
+{"prompt": "close Visual Studio Code", "completion": "osascript -e 'tell application \"Visual Studio Code\" to quit'"}
+{"prompt": "quit Visual Studio Code", "completion": "osascript -e 'tell application \"Visual Studio Code\" to quit'"}
+{"prompt": "exit Visual Studio Code", "completion": "osascript -e 'tell application \"Visual Studio Code\" to quit'"}
+{"prompt": "show disk space of drive D", "completion": "df -h /Volumes/D"}
+{"prompt": "check disk space D drive", "completion": "df -h /Volumes/D"}
+{"prompt": "display storage D", "completion": "df -h /Volumes/D"}
+{"prompt": "show disk usage of drive F", "completion": "df -h /Volumes/F"}
+{"prompt": "check storage F drive", "completion": "df -h /Volumes/F"}
+{"prompt": "display disk space F", "completion": "df -h /Volumes/F"}
+{"prompt": "show process on port 9393", "completion": "lsof -i :9393"}
+{"prompt": "check port 9393 process", "completion": "lsof -i :9393"}
+{"prompt": "display running process 9393", "completion": "lsof -i :9393"}
+{"prompt": "show process on port 3000", "completion": "lsof -i :3000"}
+{"prompt": "check port 3000 process", "completion": "lsof -i :3000"}
+{"prompt": "what's running on 3000", "completion": "lsof -i :3000"}
+{"prompt": "show password of wifi MyHome_5G", "completion": "security find-generic-password -wa 'MyHome_5G'"}
+{"prompt": "get wifi password MyHome_5G", "completion": "security find-generic-password -wa 'MyHome_5G'"}
+{"prompt": "display MyHome_5G password", "completion": "security find-generic-password -wa 'MyHome_5G'"}
+{"prompt": "show password of wifi Office_Network", "completion": "security find-generic-password -wa 'Office_Network'"}
+{"prompt": "get wifi password Office_Network", "completion": "security find-generic-password -wa 'Office_Network'"}
+{"prompt": "display Office_Network password", "completion": "security find-generic-password -wa 'Office_Network'"}
+{"prompt": "kill process on port 8080", "completion": "kill $(lsof -t -i:8080)"}
+{"prompt": "stop process 8080", "completion": "kill $(lsof -t -i:8080)"}
+{"prompt": "terminate port 8080", "completion": "kill $(lsof -t -i:8080)"}
+{"prompt": "show files modified today in Documents", "completion": "find ~/Documents -type f -mtime 0"}
+{"prompt": "list today's files Documents", "completion": "find ~/Documents -type f -mtime 0"}
+{"prompt": "display recent Documents files", "completion": "find ~/Documents -type f -mtime 0"}
+{"prompt": "show files larger than 1GB in Downloads", "completion": "find ~/Downloads -type f -size +1G"}
+{"prompt": "list big files Downloads", "completion": "find ~/Downloads -type f -size +1G"}
+{"prompt": "find large Downloads files", "completion": "find ~/Downloads -type f -size +1G"}
+{"prompt": "compress folder Project_X", "completion": "tar -czf Project_X.tar.gz Project_X"}
+{"prompt": "zip folder Project_X", "completion": "tar -czf Project_X.tar.gz Project_X"}
+{"prompt": "archive Project_X folder", "completion": "tar -czf Project_X.tar.gz Project_X"}
+{"prompt": "monitor cpu usage of process 1234", "completion": "top -pid 1234"}
+{"prompt": "check process 1234 cpu", "completion": "top -pid 1234"}
+{"prompt": "show cpu usage 1234", "completion": "top -pid 1234"}
+{"prompt": "find text error in file log.txt", "completion": "grep 'error' log.txt"}
+{"prompt": "search error in log.txt", "completion": "grep 'error' log.txt"}
+{"prompt": "look for error log.txt", "completion": "grep 'error' log.txt"}
+{"prompt": "show memory usage of Chrome", "completion": "ps -ax | grep -i 'Chrome' | awk '{print $6}'"}
+{"prompt": "check Chrome memory", "completion": "ps -ax | grep -i 'Chrome' | awk '{print $6}'"}
+{"prompt": "display Chrome ram usage", "completion": "ps -ax | grep -i 'Chrome' | awk '{print $6}'"}
+{"prompt": "create new directory Projects", "completion": "mkdir Projects"}
+{"prompt": "make folder Projects", "completion": "mkdir Projects"}
+{"prompt": "create directory Projects", "completion": "mkdir Projects"}
+{"prompt": "show network connections on port 443", "completion": "netstat -an | grep 443"}
+{"prompt": "check port 443 connections", "completion": "netstat -an | grep 443"}
+{"prompt": "list 443 port usage", "completion": "netstat -an | grep 443"}
+{"prompt": "backup MySQL database myapp", "completion": "mysqldump -u root -p myapp > myapp_backup.sql"}
+{"prompt": "export database myapp", "completion": "mysqldump -u root -p myapp > myapp_backup.sql"}
+{"prompt": "create MySQL backup myapp", "completion": "mysqldump -u root -p myapp > myapp_backup.sql"}
+{"prompt": "check disk space of C drive", "completion": "df -h /"}
+{"prompt": "display storage C", "completion": "df -h /"}
+{"prompt": "show disk usage of D drive", "completion": "df -h /Volumes/D"}
+{"prompt": "check storage on E drive", "completion": "df -h /Volumes/E"}
+{"prompt": "show process on port 8080", "completion": "lsof -i :8080"}
+{"prompt": "kill process on port 8080", "completion": "kill $(lsof -t -i:8080)"}
+{"prompt": "check port 5000 process", "completion": "lsof -i :5000"}
+{"prompt": "show process on port 5000", "completion": "lsof -i :5000"}
+{"prompt": "find large files in Documents", "completion": "find ~/Documents -type f -size +500M"}
+{"prompt": "display system memory usage", "completion": "free -h"}
+{"prompt": "check if port 80 is open", "completion": "netstat -an | grep :80"}
+{"prompt": "show wifi networks", "completion": "airport -s"}
+{"prompt": "create new directory Work", "completion": "mkdir Work"}
+{"prompt": "monitor disk space usage", "completion": "df -h"}
+{"prompt": "find all files with extension .log", "completion": "find / -type f -name '*.log'"}
+{"prompt": "copy folder Projects to Desktop", "completion": "cp -R ~/Projects ~/Desktop/"}
+{"prompt": "copy Projects directory to Desktop", "completion": "cp -R ~/Projects ~/Desktop/"}
+{"prompt": "duplicate Projects to Desktop", "completion": "cp -R ~/Projects ~/Desktop/"}
+{"prompt": "copy folder Downloads/data to Documents", "completion": "cp -R ~/Downloads/data ~/Documents/"}
+{"prompt": "copy data from Downloads to Documents", "completion": "cp -R ~/Downloads/data ~/Documents/"}
+{"prompt": "duplicate Downloads/data to Documents", "completion": "cp -R ~/Downloads/data ~/Documents/"}
+{"prompt": "copy folder development to external drive D", "completion": "cp -R ~/development /Volumes/D/"}
+{"prompt": "copy development directory to D drive", "completion": "cp -R ~/development /Volumes/D/"}
+{"prompt": "duplicate development to drive D", "completion": "cp -R ~/development /Volumes/D/"}
+{"prompt": "move folder Projects to Documents", "completion": "mv ~/Projects ~/Documents/"}
+{"prompt": "move Projects directory to Documents", "completion": "mv ~/Projects ~/Documents/"}
+{"prompt": "relocate Projects to Documents", "completion": "mv ~/Projects ~/Documents/"}
+{"prompt": "move folder workspace to external drive F", "completion": "mv ~/workspace /Volumes/F/"}
+{"prompt": "move workspace directory to F drive", "completion": "mv ~/workspace /Volumes/F/"}
+{"prompt": "relocate workspace to drive F", "completion": "mv ~/workspace /Volumes/F/"}
+{"prompt": "copy Documents/photos to backup drive", "completion": "cp -R ~/Documents/photos /Volumes/Backup/"}
+{"prompt": "backup photos folder to external drive", "completion": "cp -R ~/Documents/photos /Volumes/Backup/"}
+{"prompt": "duplicate photos to backup drive", "completion": "cp -R ~/Documents/photos /Volumes/Backup/"}
+{"prompt": "synchronize folder Projects with backup", "completion": "rsync -av ~/Projects/ /Volumes/Backup/Projects/"}
+{"prompt": "sync Projects to backup drive", "completion": "rsync -av ~/Projects/ /Volumes/Backup/Projects/"}
+{"prompt": "mirror Projects to backup", "completion": "rsync -av ~/Projects/ /Volumes/Backup/Projects/"}
+{"prompt": "copy folder test to shared drive", "completion": "cp -R ~/test /Volumes/Shared/"}
+{"prompt": "copy test directory to shared folder", "completion": "cp -R ~/test /Volumes/Shared/"}
+{"prompt": "duplicate test to shared drive", "completion": "cp -R ~/test /Volumes/Shared/"}
+{"prompt": "move Downloads/temp to trash", "completion": "mv ~/Downloads/temp ~/.Trash/"}
+{"prompt": "send temp folder to trash", "completion": "mv ~/Downloads/temp ~/.Trash/"}
+{"prompt": "relocate temp to trash", "completion": "mv ~/Downloads/temp ~/.Trash/"}
+{"prompt": "copy node_modules to project2", "completion": "cp -R ./node_modules ./project2/"}
+{"prompt": "copy node_modules folder to project2", "completion": "cp -R ./node_modules ./project2/"}
+{"prompt": "duplicate node_modules to project2", "completion": "cp -R ./node_modules ./project2/"}
+{"prompt": "copy config files to etc folder", "completion": "sudo cp -R ./config/* /etc/"}
+{"prompt": "copy configs to etc directory", "completion": "sudo cp -R ./config/* /etc/"}
+{"prompt": "duplicate config files to etc", "completion": "sudo cp -R ./config/* /etc/"}
+{"prompt": "copy assets folder to public directory", "completion": "cp -R ./assets ./public/"}
+{"prompt": "copy assets to public folder", "completion": "cp -R ./assets ./public/"}
+{"prompt": "duplicate assets to public", "completion": "cp -R ./assets ./public/"}
+{"prompt": "move src folder to new project", "completion": "mv ./src ./new-project/"}
+{"prompt": "move src directory to new project", "completion": "mv ./src ./new-project/"}
+{"prompt": "relocate src to new project", "completion": "mv ./src ./new-project/"}
+{"prompt": "show available wifi networks", "completion": "wdutil info | grep SSID"}
+{"prompt": "scan wifi networks", "completion": "wdutil info | grep SSID"}
+{"prompt": "list wireless networks", "completion": "wdutil info | grep SSID"}
+{"prompt": "show current wifi status", "completion": "wdutil info"}
+{"prompt": "display wifi info", "completion": "wdutil info"}
+{"prompt": "check wireless status", "completion": "wdutil info"}
+{"prompt": "show wifi diagnostics", "completion": "sudo wdutil diagnostic"}
+{"prompt": "check wifi problems", "completion": "sudo wdutil diagnostic"}
+{"prompt": "diagnose wireless issues", "completion": "sudo wdutil diagnostic"}
+{"prompt": "show wifi signal strength", "completion": "wdutil info | grep 'Signal Strength'"}
+{"prompt": "display wifi signal", "completion": "wdutil info | grep 'Signal Strength'"}
+{"prompt": "check wifi signal", "completion": "wdutil info | grep 'Signal Strength'"}
+{"prompt": "refresh wifi network", "completion": "networksetup -setairportpower en0 off && sleep 2 && networksetup -setairportpower en0 on"}
+{"prompt": "restart wifi", "completion": "networksetup -setairportpower en0 off && sleep 2 && networksetup -setairportpower en0 on"}
+{"prompt": "reset wireless connection", "completion": "networksetup -setairportpower en0 off && sleep 2 && networksetup -setairportpower en0 on"}
+{"prompt": "turn off wifi", "completion": "networksetup -setairportpower en0 off"}
+{"prompt": "disable wireless", "completion": "networksetup -setairportpower en0 off"}
+{"prompt": "stop wifi connection", "completion": "networksetup -setairportpower en0 off"}
+{"prompt": "turn on wifi", "completion": "networksetup -setairportpower en0 on"}
+{"prompt": "enable wireless", "completion": "networksetup -setairportpower en0 on"}
+{"prompt": "start wifi connection", "completion": "networksetup -setairportpower en0 on"}
+{"prompt": "forget wifi network Office_Guest", "completion": "networksetup -removepreferredwirelessnetwork en0 'Office_Guest'"}
+{"prompt": "remove network Office_Guest", "completion": "networksetup -removepreferredwirelessnetwork en0 'Office_Guest'"}
+{"prompt": "delete wifi Office_Guest", "completion": "networksetup -removepreferredwirelessnetwork en0 'Office_Guest'"}
+{"prompt": "connect to wifi MyHome", "completion": "networksetup -setairportnetwork en0 'MyHome' 'password'"}
+{"prompt": "join network MyHome", "completion": "networksetup -setairportnetwork en0 'MyHome' 'password'"}
+{"prompt": "connect to MyHome network", "completion": "networksetup -setairportnetwork en0 'MyHome' 'password'"}
+{"prompt": "show network interfaces", "completion": "networksetup -listallhardwareports"}
+{"prompt": "list network adapters", "completion": "networksetup -listallhardwareports"}
+{"prompt": "display network ports", "completion": "networksetup -listallhardwareports"}
+{"prompt": "show wifi statistics", "completion": "wdutil status"}
+{"prompt": "display wireless stats", "completion": "wdutil status"}
+{"prompt": "check wifi performance", "completion": "wdutil status"}
+{"prompt": "run wifi scan", "completion": "sudo wdutil scan"}
+{"prompt": "perform wireless scan", "completion": "sudo wdutil scan"}
+{"prompt": "scan for networks", "completion": "sudo wdutil scan"}
+{"prompt": "check wifi channels", "completion": "wdutil info | grep 'Channel'"}
+{"prompt": "show wireless channels", "completion": "wdutil info | grep 'Channel'"}
+{"prompt": "display channel info", "completion": "wdutil info | grep 'Channel'"}
+{"prompt": "auto hide dock", "completion": "defaults write com.apple.dock autohide -bool true && killall Dock"}
+{"prompt": "enable dock auto hide", "completion": "defaults write com.apple.dock autohide -bool true && killall Dock"}
+{"prompt": "make dock auto hide", "completion": "defaults write com.apple.dock autohide -bool true && killall Dock"}
+{"prompt": "disable dock auto hide", "completion": "defaults write com.apple.dock autohide -bool false && killall Dock"}
+{"prompt": "turn off dock auto hide", "completion": "defaults write com.apple.dock autohide -bool false && killall Dock"}
+{"prompt": "stop dock auto hide", "completion": "defaults write com.apple.dock autohide -bool false && killall Dock"}
+{"prompt": "reduce dock size", "completion": "defaults write com.apple.dock tilesize -int 36 && killall Dock"}
+{"prompt": "make dock smaller", "completion": "defaults write com.apple.dock tilesize -int 36 && killall Dock"}
+{"prompt": "decrease dock size", "completion": "defaults write com.apple.dock tilesize -int 36 && killall Dock"}
+{"prompt": "increase dock size", "completion": "defaults write com.apple.dock tilesize -int 72 && killall Dock"}
+{"prompt": "make dock bigger", "completion": "defaults write com.apple.dock tilesize -int 72 && killall Dock"}
+{"prompt": "enlarge dock size", "completion": "defaults write com.apple.dock tilesize -int 72 && killall Dock"}
+{"prompt": "show time in 24 hour format", "completion": "defaults write com.apple.menuextra.clock DateFormat -string 'HH:mm'"}
+{"prompt": "change to 24 hour time", "completion": "defaults write com.apple.menuextra.clock DateFormat -string 'HH:mm'"}
+{"prompt": "use 24 hour clock", "completion": "defaults write com.apple.menuextra.clock DateFormat -string 'HH:mm'"}
+{"prompt": "show time in 12 hour format", "completion": "defaults write com.apple.menuextra.clock DateFormat -string 'h:mm a'"}
+{"prompt": "change to 12 hour time", "completion": "defaults write com.apple.menuextra.clock DateFormat -string 'h:mm a'"}
+{"prompt": "use 12 hour clock", "completion": "defaults write com.apple.menuextra.clock DateFormat -string 'h:mm a'"}
+{"prompt": "show date in menu bar", "completion": "defaults write com.apple.menuextra.clock DateFormat -string 'MMM d  h:mm a'"}
+{"prompt": "display date in menu bar", "completion": "defaults write com.apple.menuextra.clock DateFormat -string 'MMM d  h:mm a'"}
+{"prompt": "add date to menu bar", "completion": "defaults write com.apple.menuextra.clock DateFormat -string 'MMM d  h:mm a'"}
+{"prompt": "minimize dock animation effect", "completion": "defaults write com.apple.dock mineffect -string 'scale' && killall Dock"}
+{"prompt": "change dock animation", "completion": "defaults write com.apple.dock mineffect -string 'scale' && killall Dock"}
+{"prompt": "set dock minimize effect", "completion": "defaults write com.apple.dock mineffect -string 'scale' && killall Dock"}
+{"prompt": "show hidden files", "completion": "defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"}
+{"prompt": "display hidden files", "completion": "defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"}
+{"prompt": "reveal hidden files", "completion": "defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"}
+{"prompt": "change resolution to 1920x1080", "completion": "displayplacer 'id:69784AF1-CD7D-B79B-E5D4-60D937407F68 res:1920x1080'"}
+{"prompt": "set resolution 1920x1080", "completion": "displayplacer 'id:69784AF1-CD7D-B79B-E5D4-60D937407F68 res:1920x1080'"}
+{"prompt": "switch to 1920x1080", "completion": "displayplacer 'id:69784AF1-CD7D-B79B-E5D4-60D937407F68 res:1920x1080'"}
+{"prompt": "enable dock magnification", "completion": "defaults write com.apple.dock magnification -bool true && killall Dock"}
+{"prompt": "turn on dock magnification", "completion": "defaults write com.apple.dock magnification -bool true && killall Dock"}
+{"prompt": "activate dock zoom", "completion": "defaults write com.apple.dock magnification -bool true && killall Dock"}
+{"prompt": "disable dock magnification", "completion": "defaults write com.apple.dock magnification -bool false && killall Dock"}
+{"prompt": "turn off dock magnification", "completion": "defaults write com.apple.dock magnification -bool false && killall Dock"}
+{"prompt": "deactivate dock zoom", "completion": "defaults write com.apple.dock magnification -bool false && killall Dock"}
+{"prompt": "set dock position to left", "completion": "defaults write com.apple.dock orientation -string 'left' && killall Dock"}
+{"prompt": "move dock to left", "completion": "defaults write com.apple.dock orientation -string 'left' && killall Dock"}
+{"prompt": "place dock on left", "completion": "defaults write com.apple.dock orientation -string 'left' && killall Dock"}
+{"prompt": "set dock position to right", "completion": "defaults write com.apple.dock orientation -string 'right' && killall Dock"}
+{"prompt": "move dock to right", "completion": "defaults write com.apple.dock orientation -string 'right' && killall Dock"}
+{"prompt": "place dock on right", "completion": "defaults write com.apple.dock orientation -string 'right' && killall Dock"}
+{"prompt": "set dock position to bottom", "completion": "defaults write com.apple.dock orientation -string 'bottom' && killall Dock"}
+{"prompt": "move dock to bottom", "completion": "defaults write com.apple.dock orientation -string 'bottom' && killall Dock"}
+{"prompt": "place dock on bottom", "completion": "defaults write com.apple.dock orientation -string 'bottom' && killall Dock"}
