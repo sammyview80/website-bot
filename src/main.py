@@ -1,9 +1,13 @@
+import os
 from flask import Flask
 from flask_session import Session
 from config import ApplicationConfig
+from dotenv import load_dotenv
 from models import db
 from routes.auth.index import auth
 from routes.llm.index import llm
+
+load_dotenv()
 
 app = Flask(__name__)
 app.config.from_object(ApplicationConfig)
@@ -18,5 +22,5 @@ app.register_blueprint(auth, url_prefix='/auth')
 app.register_blueprint(llm, url_prefix='/llm')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=os.environ.get('PORT', 5000))
 
