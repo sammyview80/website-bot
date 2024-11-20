@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from flask import Blueprint, request, jsonify, session
 from helpers.prompts import PromptManager
-from helpers.LLM import ConversationLLM, LLM
+from helpers.LLM import ConversationLLM 
 
 load_dotenv()
 

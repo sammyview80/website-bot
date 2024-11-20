@@ -9,6 +9,7 @@ from langchain_core.prompts import (
     MessagesPlaceholder,
 )
 from langchain.chains.llm import LLMChain 
+from langchain.chains.sequential import SequentialChain
 from langchain_core.messages import SystemMessage
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from typing import Dict,  Optional
@@ -28,7 +29,6 @@ class LLM:
                 model=model
             )
         elif type == "openai":
-            print(api_key)
             self.client: ChatOpenAI = ChatOpenAI(api_key=api_key, model=model)
         self.model = model
         self.agent_tools = []
