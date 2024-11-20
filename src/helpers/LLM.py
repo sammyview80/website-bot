@@ -1,30 +1,23 @@
-from groq import Groq
+import os
+
+from dotenv import load_dotenv
+
 from langchain_groq import ChatGroq
-from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_core.prompts import (
     ChatPromptTemplate,
     HumanMessagePromptTemplate,
     MessagesPlaceholder,
 )
-from langchain.chains import LLMChain, SequentialChain, RetrievalQA
-from langchain_community.document_loaders import CSVLoader
-from langchain_community.vectorstores import DocArrayInMemorySearch
+from langchain.chains.llm import LLMChain 
 from langchain_core.messages import SystemMessage
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
-from typing import Dict, Literal, Optional
+from typing import Dict,  Optional
 from langchain.chains.router import MultiPromptChain
 from langchain.chains.router.llm_router import LLMRouterChain,RouterOutputParser
 from langchain.prompts import PromptTemplate
-from langchain_community.agent_toolkits.load_tools import load_tools 
-from langchain.agents import AgentType
+from langchain_openai import OpenAI, ChatOpenAI
 
-# Basic index creator
-from langchain.indexes import VectorstoreIndexCreator
-import pandas as pd
-import os
-import json
-from openai import OpenAI
-from dotenv import load_dotenv
+
 load_dotenv()
 
 class LLM:
@@ -35,17 +28,16 @@ class LLM:
                 model=model
             )
         elif type == "openai":
-            self.client = OpenAI(api_key)
+            print(api_key)
+            self.client: ChatOpenAI = ChatOpenAI(api_key=api_key, model=model)
         self.model = model
         self.agent_tools = []
 
-    def chat_completions(self, prompt: str, model: Optional[str] = None) -> str:
-        print(prompt)
+    def chat_completions(self, prompt: str ) -> str:
         completion = self.client.invoke(
             [{"role": "user", "content": prompt}])
-        print(completion.content)
         return completion.content
-    
+
 
 class Chains:
     def __init__(self, client):
@@ -147,8 +139,8 @@ class ConversationLLM(LLM, Chains):
         self.conversation: Optional[LLMChain] = None
     
     def create(self, prompt: str = None, llm = None, memory = None, verbose: bool = True):
-        self.conversation = LLMChain(
-            llm=llm or self.client,
+        self.conversation: LLMChain = LLMChain(
+            llm= llm if llm is not None else self.client,
             memory=memory or self.memory,
             prompt=self.create_template(prompt) if prompt else None,
             verbose=verbose
@@ -174,6 +166,7 @@ class ConversationLLM(LLM, Chains):
     def chat(self, user_input: str) -> str:
         if self.conversation is None:
             raise ValueError("Conversation not initialized. Call create_conversation() first.")
+
         return self.conversation.predict(human_input =user_input)
 
     # def get_conditional_template(self, input: str, categories: list[Dict[str, str]]) -> ChatPromptTemplate:
