@@ -88,7 +88,6 @@ typing-inspect==0.9.0
 typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.3
-utils @ file:///Users/samanshrestha/Downloads/youtube/Web-scraper
 uvicorn==0.23.2
 Werkzeug==3.0.4
 yarl==1.11.1
