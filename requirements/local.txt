@@ -1,9 +1,0 @@
-flask 
-flask-sqlalchemy 
-flask-bcrypt
-python-dotenv
-flask-session
-redis
-requests
-beautifulsoup4
-langchain-community
